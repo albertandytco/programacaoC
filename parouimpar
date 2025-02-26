@@ -35,3 +35,25 @@ int main() {
          }
     return 0;
 }
+
+// o código acima se refere a um problema onde a saída deve apontar o vencedor numa disputa de impar ou par, o código abaixo é mais específico para definir se um número é ou não é par.  
+
+#include <stdio.h>
+
+int main() {
+    int A, B;
+
+    // Entrada dos dois números
+    scanf("%d", &A);
+    scanf("%d", &B);
+
+    // Verifica se a soma é par ou ímpar
+    if ((A + B) % 2 == 0) {
+        printf("Par\n");
+    } else {
+        printf("Impar\n");
+    }
+
+    return 0;
+}
+
