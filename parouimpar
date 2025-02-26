@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+	int bino_mao, cino_mao;
+
+    // Entrada dos dedos de Bino
+    
+    printf("Digite a quantidade de dedos que Bino mostrou (0 a 10): ");
+    scanf("%d", &bino_mao);
+
+     // Validação da entrada de Bino
+
+    if (bino_mao < 0 || bino_mao > 10) {
+        printf("Entrada inválida para Bino. Envie um número entre 0 e 10.\n");
+        return 1;  // Encerra o programa com erro
+    }
+
+    // Entrada dos dedos de Cino
+    printf("Digite a quantidade de dedos que Cino mostrou (0 a 10): ");
+    scanf("%d", &cino_mao); 
+
+    // Validação da entrada de cino 
+    if (cino_mao < 0 || cino_mao > 10) {
+        printf("Entrada inválida para Cino. Envie um número entre 0 e 10.\n"); 
+        return 1; //Encerra o programa com erro 
+    }
+
+    // Verificando o vencedor
+    if ((bino_mao+cino_mao) % 2 == 0) {
+        printf("Bino\n");
+    }
+    else {printf("Cino\n"); 
+         }
+    return 0;
+}
