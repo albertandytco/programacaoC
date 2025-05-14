@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// o código abaixo se refere a um problema onde a saída deve apontar o vencedor numa disputa de impar ou par, 
+
 int main() {
 
 	int bino_mao, cino_mao;
@@ -36,7 +38,9 @@ int main() {
     return 0;
 }
 
-// o código acima se refere a um problema onde a saída deve apontar o vencedor numa disputa de impar ou par, o código abaixo é mais específico para definir se um número é ou não é par.  
+
+
+// o código abaixo é especificamente para definir se um número é par ou não.  
 
 #include <stdio.h>
 
@@ -55,5 +59,6 @@ int main() {
     }
 
     return 0;
+
 }
 
