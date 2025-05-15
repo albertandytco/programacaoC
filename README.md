@@ -13,4 +13,4 @@
 
 --- 
 
-**Nota: Esse repositório foi criado para fins pessoais, e não tem intenção de violar nenhum direito autoral do curso da faculdade Estácio. 
+**Nota:** Esse repositório foi criado para fins pessoais, e não tem intenção de violar nenhum direito autoral do curso da faculdade Estácio. 
